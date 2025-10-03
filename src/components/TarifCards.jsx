@@ -6,12 +6,12 @@ export const TarifCards = ({ id, period, price, full_price, text }) => {
   return (
     <li
       key={id}
-      className="text-center rounded-[35px] border-[#484D4E] border-1 bg-[#313637] w-[230px] h-[335px] flex items-stretch"
+      className="text-center rounded-[35px]  bg-[#313637] w-[230px] h-[335px] flex items-stretch"
     >
       <label className="block cursor-pointer w-full">
         <input type="radio" className="hidden peer" name="tariff" />
 
-        <div className="relative rounded-[35px] p-6 bg-[#313637] border peer-checked:border-[#FDB056] transition h-full flex flex-col justify-between">
+        <div className="relative rounded-[35px] p-6 bg-[#313637] border-[#484D4E] border-2 peer-checked:border-[#FDB056] transition h-full flex flex-col justify-between">
           {!timeUp && (
             <div className="absolute -top-0 left-8 bg-[#FD5656] text-white text-xs font-semibold px-2 py-1 rounded-md">
               -50%

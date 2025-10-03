@@ -7,7 +7,7 @@ export const TarifCards = ({ id, period, price, full_price, text }) => {
     <li
       key={id}
       className="text-center rounded-[35px] bg-[#313637] flex items-stretch 
-                 w-full sm:w-[230px] h-auto sm:h-[335px]"
+                 w-full sm:w-[250px] h-auto sm:h-[335px]"
     >
       <label className="block cursor-pointer w-full">
         <input type="radio" className="hidden peer" name="tariff" />

@@ -26,7 +26,6 @@ export const Tarif = ({
 
   return (
     <>
-      {/* Image responsive */}
       <div className="tarif_inner_center_left flex justify-center sm:block">
         <img
           src={TarifImg}
@@ -41,7 +40,6 @@ export const Tarif = ({
             className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6"
             role="list"
           >
-            {/* Big card */}
             {tariffs.slice(3, 4).map((el) => (
               <li
                 key={el.id}
@@ -103,7 +101,6 @@ export const Tarif = ({
               </li>
             ))}
 
-            {/* 3 ta oddiy card */}
             {tariffs.slice(0, 3).map((el) => (
               <TarifCards
                 key={el.id}
@@ -118,7 +115,6 @@ export const Tarif = ({
           </ul>
         </div>
 
-        {/* Info box */}
         <div className="w-full sm:w-[500px] mb-6 p-4 rounded-[15px] bg-[#2D3233] text-gray-300 flex items-start gap-3">
           <div className="text-[#FDB056] font-semibold">!</div>
           <div className="text-sm">
@@ -127,7 +123,6 @@ export const Tarif = ({
           </div>
         </div>
 
-        {/* Checkbox + button */}
         <div className="flex flex-col items-start gap-4">
           <label
             className={`flex items-center gap-2 px-2 py-1 rounded-md cursor-pointer transition ${

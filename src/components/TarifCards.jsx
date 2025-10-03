@@ -6,7 +6,6 @@ export const TarifCards = ({ id, period, price, full_price, text }) => {
   return (
     <li
       key={id}
-      // default (mobile) full-width, desktopda fixed width
       className="text-center rounded-[35px] bg-[#313637] flex items-stretch 
                  w-full sm:w-[230px] h-auto sm:h-[335px]"
     >
